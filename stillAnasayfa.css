@@ -6,42 +6,43 @@ body {
 h1{
   background-color: dodgerblue; 
   color: white; 
-  padding-left: 20 px;
+  padding-left: 20px;
 }
 form{
     display: inline-block;
-    margin-left: 20 px;
-    margin-top: 20 px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 input{
-    padding: 5 px; 
-    width: 150 px; 
-    font-size: 14 px; 
-    margin-right: 10 px;
+    padding: 5px; 
+    width: 150px; 
+    font-size: 14px; 
+    margin-right: 10px;
 }
 button{
-    padding: 5 px 10 px; 
+    padding: 5px 10px; 
     background-color: #007BFF; 
     color: white; 
     border: none; 
-    font-size: 14 px; 
+    font-size: 14px; 
     cursor: pointer;
 }
 p{
-    max-width: 650 px; 
-    margin-left: 10 px;
+    max-width: 650px; 
+    margin-left: 10px;
 }
 img{
      
    display: inline-block; 
    width: 35%; 
    height: auto; 
-   margin-left: 20 px;
+   margin-left: 20px;
 }
 a{
-    max-width: 650 px; 
-    margin-left: 10 px;
+    max-width: 650px; 
+    margin-left: 10px;
 }
+
 
 
 
