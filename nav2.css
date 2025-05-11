@@ -25,6 +25,7 @@
   color: #333;
   padding: 5 px 10 px;
   flex-direction: column;
+  gap: 10 px;
 }
 
 .nav-links li a:hover {
