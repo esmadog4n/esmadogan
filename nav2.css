@@ -1,49 +1,36 @@
 .navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #ffecd9;
-    padding: 25 px;
-    gap: 20 px; 
-    box-shadow: 0 2 px 8 px rgba (0, 0, 0, 0.1);
-  }  
-  
-  .logo {
-    font-size: 26 px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10 px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 15 px; 
-    padding: 0;
-    margin: 0;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    padding: 5 px 5 px; 
-    border-radius: 5 px;
-  }
-  
-  .nav-links li a:hover {
-    background-color: #ffd5b7;
-    color: dodgerblue;
-  }
-  
+  background-color: #f4f4f4;
+  padding: 10 px 20 px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .btn-tarif {
-    background-color: dodgerblue;
-    color: white ! important;
-    padding: 5 px 5 px;
-    border-radius: 5 px;
-  }
+.logo {
+  font-size: 20 px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15 px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5 px 10 px;
+  flex-direction: column;
+}
+
+.nav-links li a:hover {
+  background-color: #ddd;
+  border-radius: 4 px;
+}
   
   .btn-tarif:hover {
     background-color: #1e90ff;
