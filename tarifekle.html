@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarif Ekle</title>
+  <link rel="stylesheet" href="styleTEkle.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Tarif Ekle</h1>
+    <form>
+      <label for="tarifAdi">Tarif Adı</label>
+      <input type="text" id="tarifAdi" required>
+
+      <label for="kategori">Kategori</label>
+      <select id="kategori" required>
+        <option value="">Seçiniz</option>
+        <option>Kahvaltılık</option>
+        <option>Kek Tarifleri</option>
+        <option>Atıştırmalık</option>
+        <option>Glütensiz Kek Tarifleri</option>
+      </select>
+
+      <label for="malzemeler">Malzemeler</label>
+      <textarea id="malzemeler" rows="4" required></textarea>
+
+      <label for="hazirlanis">Hazırlanışı</label>
+      <textarea id="hazirlanis" rows="5" required></textarea>
+
+      <label for="foto">Fotoğraf</label>
+      <input type="file" id="foto" accept="image/*">
+
+      <button type="submit">Tarifi Gönder</button>
+    </form>
+    <br>
+    <a href="index.html">Anasayfa</a> 
+  </div>
+</body>
+</html>
