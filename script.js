@@ -8,6 +8,7 @@ document.getElementById("aramaForm").addEventListener("submit", function (e) {
       "glütensiz": ["pkekgz.html"],
       "kek": ["tarifaramaliste.html"], // Artık tüm kek tariflerini bu sayfada listeleyeceğiz
       "kahvaltılık": ["kaygana.html"]
+      "kaygana": ["kaygana.html"]
     };
   
     let bulunanSayfalar = [];
